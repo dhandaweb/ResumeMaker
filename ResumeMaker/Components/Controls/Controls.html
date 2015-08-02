@@ -1,0 +1,18 @@
+﻿
+<!--sidebar start-->
+<aside>
+    <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" data-bind="foreach:{data:MyControls}" id="nav-accordion">
+            <li>
+                <a>
+                    <i data-bind="css:$data.Icon"></i>
+                    <span data-bind="text: $data.Name, dragZone:{name: 'CanvasContols'}"></span>
+                </a>
+            </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+    </div>
+</aside>
+<!--sidebar end-->

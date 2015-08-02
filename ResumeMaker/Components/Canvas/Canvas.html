@@ -1,0 +1,22 @@
+﻿
+<div id="main-content">
+    <!-- ko component:{name: 'Profile' }  -->
+    <!-- /ko -->
+    <div class="wrapper site-min-height" style="margin-top:-20px" data-bind="foreach:{data:ControlsList},dropZone:{accepts: 'CanvasContols',drop:ControlDropped}">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <span data-bind="text:$data.Name"></span>
+                        <span class="tools pull-right">
+                            <a data-bind="click: $parent.RemoveControl" class="fa fa-times"></a>
+                        </span>
+                    </div>
+                    <!-- ko component: {name: $data.Name } -->
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

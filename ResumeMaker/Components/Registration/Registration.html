@@ -1,0 +1,21 @@
+﻿<div class="container">
+    <form class="form-signin" action="index.html">
+        <h2 class="form-signin-heading">registration now</h2>
+        <div class="login-wrap">
+            <p> Enter your account details below</p>
+            <input type="text" class="form-control" data-bind="value:UserName" placeholder="User Name" autofocus>
+            <input type="password" class="form-control" data-bind="value:Password"  placeholder="Password">
+            <input type="password" class="form-control" placeholder="Re-type Password">
+            <label class="checkbox">
+                <input type="checkbox" value="agree this condition"> I agree to the Terms of Service and Privacy Policy
+            </label>
+            <button class="btn btn-lg btn-login btn-block" type="submit" data-bind="click:NewRegistration">Submit</button>
+            <div class="registration">
+                Already Registered.
+                <a class="" data-bind="click:Login">
+                    Login
+                </a>
+            </div>
+        </div>
+    </form>
+</div>

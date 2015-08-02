@@ -1,0 +1,30 @@
+﻿body {
+}
+.Header {
+    height:50px;
+    display:block;
+    width:100%;
+    background-color:#f3f3f3;
+}
+.Footer {
+    height:50px;
+    display:block;
+    width:100%;
+    background-color:#f3f3f3;
+}
+.Canvas {
+    height:700px;
+    display:inline-block;
+    width:70%;
+     float:left;
+    background-color:#bebebe;
+}
+.Controls {
+    color:#fff;
+       height:700px;
+     display:inline-block;
+    float:right;
+   width:30%;
+    background-color:red;
+
+}
